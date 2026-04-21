@@ -20,12 +20,3 @@ npm run dev
 | `/analytics` | Analytics        |
 | `/settings`  | Settings         |
 
-## Connect your backend
-
-Replace dummy data in `src/data/sampleData.js` with real API calls:
-
-```js
-// Example
-const res = await fetch('http://localhost:8000/api/logs')
-const logs = await res.json()
-```
